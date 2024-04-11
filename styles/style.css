@@ -1,0 +1,272 @@
+/* стили для главной старницы */
+/* заголовок */
+.head-text{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+/* слайдер */
+.my-carousel{
+    padding: 0;
+}
+
+.my-carousel .carousel-item{
+    max-height: 500px;
+}
+
+.my-carousel .carousel-item img{
+    object-fit: cover;
+}
+
+/* кнопка заказать пиццу */
+.pizza-button{
+    text-align: center;
+}
+
+.buy-pizza{
+    background-color: #AB3939;
+    border-radius: 20px;
+    padding: 20px 40px;
+    font-size: 30px;
+    border: 2px solid transparent;
+    color: white;
+}
+
+.buy-pizza:hover{
+    background-color: #AB3939;
+    border: 2px solid white;
+}
+
+.card{
+    background-color: #302929;
+    color: white;
+}
+
+.card-body{
+    padding: 2em;
+}
+
+.card-text{
+    padding: 0px;
+}
+
+.to-cart{
+    background-color: #AB3939;
+    text-decoration: none;
+    border: 1px solid transparent;
+    color:white;
+    border-radius: 20px;
+    font-size: 1em;
+    padding: 10px;
+}
+
+.to-cart:hover{
+    border: 1px solid white;
+}
+.section-pizza{
+    background-color:#1A1313;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pizza-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img-top{
+    height: 300px;
+    overflow-x: hidden;
+}
+
+/* profile */
+
+.form-profile{
+    background-color:#1A1313;
+}
+
+label{
+    color:white
+}
+.form-control{
+    width: 400px;
+}
+
+.save-button{
+    color:white;
+    background-color: #AB3939;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+}
+
+.save-button:hover{
+    border: 2px solid white;
+}
+
+.exit-button{
+    background-color: #1A1313;
+    color: white;
+    padding:10px 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-top: 9em;
+}
+
+.exit-button:hover{
+    background-color: #AB3939;
+    border: 2px solid #AB3939;
+}
+
+/* cart */
+
+.bucket-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1A1313;
+    margin-bottom: 300px;
+}
+
+.cart__product-image{
+    height: 200px;
+    width: 200px;
+}
+
+.card-price{
+    padding: 0;
+}
+
+.cart__product-price{
+    font-size: 20px;
+}
+
+.cart__product-delete{
+    background-color: #1A1313;
+    font-size: 20px;
+    border: none;
+}
+
+.forward-button-cart{
+    background-color: #AB3939;
+    width: 100%;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+.forward-button-cart:hover{
+    border: 2px solid white;
+}
+
+.return-button{
+    color:white;
+    background-color: #AB3939;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+}
+
+.return-button:hover{
+    border: 2px solid white;
+}
+
+/* oform */
+.form-oform{
+    background-color: #1A1313;
+}
+
+#inputName,
+#inputTel{
+    width: 100%;
+}
+
+#inputAddress{
+    width: 100%;
+}
+
+#inputApartment,
+#inputPadik,
+#inputFloor{
+    width: 100%;
+}
+
+#inputEmail{
+    width: 100%;
+}
+
+.forward-button{
+    background-color: #AB3939;
+    width: 100%;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    margin-top: 5em;
+}
+
+.forward-button:hover{
+    border: 2px solid white;
+}
+
+
+.footer-cart{
+    margin-top:1000px;
+}
+
+.buy-container{
+    background-color: #1A1313;
+}
+
+.buy-p{
+    color:white;
+    font-size: 15px;
+    margin-left:50px;
+}
+
+.pay-button{
+    background-color: #AB3939;
+    margin-left:50px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    margin-top: 2em;
+}
+
+.pay-button:hover{
+    border: 2px solid white;
+}
+
+.foot-buy{
+    margin-top: 500px;
+}
+
+.aboutUs{
+    background-color: #302929;
+}
+
+.aboutp{
+    color:white;
+    font-size:20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 20px;
+    margin-top: 15px;
+}
+
+.GOST{
+    background-color:#302929;
+}
+
+.specH{
+    color:red;
+    padding-top: 185px;
+}
+
+.hvatit{
+    color:white
+}
